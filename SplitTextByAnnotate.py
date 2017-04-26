@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # 将一个文本文件按照 # 注释分割为多个文件，文件名就是#注释内容
-# Usage：python3 split_text_file.py input.txt 
+# Usage：python3 SplitTextByAnnotate.py input.txt 
 import sys
 
 input_file = open(sys.argv[1]).readlines()
