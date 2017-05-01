@@ -4,7 +4,6 @@ import sys
 import hashlib
 import binascii
 import base64
-
 # Usage: python3 md5sum_sha1sum.py <inputfile> 
 
 def SHA1FileWithName(fineName, block_size=64 * 1024):
