@@ -21,19 +21,7 @@ greenFill = PatternFill(start_color='CCFF99',
                       fill_type='solid')
 for i in range(1,13):
     xlsx_wb_sheet.cell(row = 1, column = i).fill = greenFill
-
-xlsx_wb_sheet.cell(row = 1, column = 1).font = font
-xlsx_wb_sheet.cell(row = 1, column = 2).font = font
-xlsx_wb_sheet.cell(row = 1, column = 3).font = font
-xlsx_wb_sheet.cell(row = 1, column = 4).font = font
-xlsx_wb_sheet.cell(row = 1, column = 5).font = font
-xlsx_wb_sheet.cell(row = 1, column = 6).font = font
-xlsx_wb_sheet.cell(row = 1, column = 7).font = font
-xlsx_wb_sheet.cell(row = 1, column = 8).font = font
-xlsx_wb_sheet.cell(row = 1, column = 9).font = font
-xlsx_wb_sheet.cell(row = 1, column = 10).font = font
-xlsx_wb_sheet.cell(row = 1, column = 11).font = font
-xlsx_wb_sheet.cell(row = 1, column = 12).font = font
+    xlsx_wb_sheet.cell(row = 1, column = i).font = font
 
 xlsx_wb_sheet.cell(row = 1, column = 1).value = "Chrom"
 xlsx_wb_sheet.cell(row = 1, column = 2).value = "Pos"
